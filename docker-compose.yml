@@ -1,0 +1,12 @@
+version: "3"
+services:
+  php72:
+    image: redis-c
+    # image: fgelei/dump_php1
+    build:
+      context: .
+    #   args:
+    #     PHP_VERSION: ${PHP72_VERSION}
+    #     ALPINE_REPOSITORIES: ${ALPINE_REPOSITORIES}
+    #     PHP_EXTENSIONS: ${PHP72_EXTENSIONS}
+    #     MORE_EXTENSION_INSTALLER: php72.sh
